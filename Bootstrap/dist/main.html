@@ -3,7 +3,10 @@
 <head>
 	<title>Main Page</title>
 <meta name="vieport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style type="text/css">
 	img{
 		border:2px solid blue;
@@ -34,12 +37,34 @@
 		
 	</nav>
 	<div class="parent">
-	<!-- <div clss="jumbotron ml-auto mr-auto" style="width:300px">
-		<img src="1.jpg" class="img-rounded">
-	</div> -->
-	<div clss="jumbotron ml-auto mr-auto" style="width:300px">
-		<img src="1.jpg" class="img-thumbnail">
+	<div class="jumbotron ml-auto mr-auto" style="width:300px">
+		<img src="1.jpg" class="img-rounded" width="100%">
 	</div>
+	<div class="jumbotron ml-auto mr-auto" style="width:300px">
+		<img src="1.jpg" class="img-thumbnail">
+	</div> 
+</div>
+<!-- Dropdown -->
+<div class="dropdown">
+	<button class="btn-primary dropdown-toggle" type="button" data-toggle="dropdown">View</button>
+	<div class="dropdown-menu">
+		<a href="profile.html">Profile</a>
+		<a href="login.html">Login</a>
+		<a href="index.html">Index</a>
+	</div>
+</div>
+<!-- Grid System -->
+<div class="container-fluid">
+	<h1>Web Designing Using ReactJs</h1>
+	<p>This Training Program we learn Git&Github,HTML5,Css3,bootstrap4,js,reactjs</p>
+	<div class="row">
+		<div class="col-sm-4" style="background-color: #c45e45">Git&Github</div>
+		<div class="col-sm-5" style="background-color: orange">HTML5</div>
+		<div class="col-sm-4" style="background-color: #add">CSS3</div>
+		<div class="col-lg-4" style="background-color: #c45e45">1</div>
+		
+	</div>
+	
 </div>
 </body>
 </html>
